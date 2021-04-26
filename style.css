@@ -39,3 +39,10 @@
     font-weight: 500;
     margin-left: 25px;
 }
+k
+/* home section styling */
+.home{
+    display: flex;
+    background:url("assets/Banner.png") no-repeat center;
+    height: 100vh;
+}
