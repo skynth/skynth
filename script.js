@@ -8,6 +8,14 @@ $(document).ready(function(){
 
         }
     });
+    //Typing Script
+
+    var typed = new Typed(".typing", {
+        strings: ["Creative Enthusiast", "Application Developer", "Designer", "Videographer", "Photographer", "Soccer Freestyler"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
     //Script to toggle menu and navbar
     $('.menu-btn').click(function() {
         $('.navbar .menu').toggleClass("active");
