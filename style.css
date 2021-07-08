@@ -151,26 +151,26 @@ body {background-color:white;}
     display: flex;
 }
 .news .links .fox{
-    padding-left: 8vw;
-    padding-right: 8vw;
-    margin-left: -8vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    margin-left: -9vw;
     flex: 2.1;
 }
 .news .links .lacrier{
-    padding-left: 8vw;
-    padding-right:8vw;
+    padding-left: 9vw;
+    padding-right:9vw;
     flex: .895;
 }
 .news .links .nyt{
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
     flex: .774;
 }
 .news .links .nbc{
-    padding-left: 8vw;
-    padding-right: 8vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
     flex: 1.77;
-    margin-right: -8vw;
+    margin-right: -9vw;
 
 }
 section{
