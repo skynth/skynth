@@ -389,6 +389,7 @@ section{
     display: flex;
     transition: all 0.3s ease;
     align-items: center;
+    /**flex-direction: column;**/
 }
 .projects .content .box2 .header{
     color: #2D3F70;
@@ -568,17 +569,50 @@ section{
   }
   
   /* Responsive media query */
-@media (max-width: 1104px){
-    .home .max-width{
-        margin-left: 0px;
-    }
-}
-@media (max-width: 991px){
+@media (max-width: 1600px){
     .max-width{
-        padding: 0 50px;
+        padding: 0 100px;
+    }
+    .navbar .logo a{
+        font-size: 30px;
+    }
+    .navbar.sticky .logo a{
+        font-size: 25px;
     }
 }
-@media (max-width: 947px){
+@media (max-width: 1300px){
+    .max-width{
+        padding: 0 40px;
+    }
+    .home .home-content .text-1{
+        font-size: 120px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 26px;
+    }
+    .navbar .logo a{
+        font-size: 25px;
+    }
+    .navbar.sticky .logo a{
+        font-size: 20px;
+    }
+    .home .links .resume a{
+        font-size: 26px;
+        padding: 16px 66px;
+    }
+    .home .links .contact a{
+        font-size: 26px;
+        margin-left: 15px;
+        padding: 12px 40px;
+    }
+    .navbar .menu li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1040px){
 
     .max-width{
         padding: 0 50px;
@@ -626,19 +660,33 @@ section{
         font-size: 23px;
         padding: 10px 30px;
     }
-}
-@media (max-width: 690px){
-    .max-width{
-        padding: 0 23px;
+    .home .links .resume a{
+        font-size: 24px;
+        padding: 16px 66px;
     }
+    .home .links .contact a{
+        font-size: 24px;
+        margin-left: 10px;
+        padding: 12px 40px;
+    }
+
+}
+@media (max-width: 720px){
     .home .home-content .text-1{
-        font-size: 100px;
+        font-size: 110px;
     }
     .home .home-content .text-2{
-        font-size: 36px;
+        font-size: 44px;
     }
     .home .home-content .text-3{
-        font-size: 22px;
+        font-size: 26px;
+    }
+    .home{
+        background:white;
+        margin-bottom: -125px;
+    }
+    .max-width{
+        padding: 0 50px;
     }
     .home .home-content a{
         font-size: 20px;
@@ -663,14 +711,69 @@ section{
     .msg{
       width: 100%;
     }
+    .home .links .resume a{
+        font-size: 28px;
+        padding: 16px 66px;
+    }
+    .home .links .contact a{
+        font-size: 28px;
+        margin-left: 15px;
+        padding: 12px 40px;
+    }
     
 }
-@media screen and (max-width: 500px){
+@media (max-width: 645px){
+    .home{
+        background:white;
+        margin-bottom: -175px;
+    }
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-1{
+        margin-top: -100px;
+        font-size: 100px;
+    }
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 40px;
     }
     .home .home-content .text-3{
+        font-size: 22px;
+        line-height: 2;
+    }
+    .home .links .resume a{
         font-size: 27px;
+        padding: 16px 66px;
+    }
+    .home .links .contact a{
+        font-size: 27px;
+        margin-left: 10px;
+        padding: 12px 40px;
+    }
+
+}
+@media (max-width: 550px){
+    .max-width{
+        padding: 0 20px;
+    }
+    .home .home-content .text-1{
+        font-size: 90px;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 20px;
+        line-height: 2;
+    }
+    .home .links .resume a{
+        font-size: 22px;
+        padding: 16px 66px;
+    }
+    .home .links .contact a{
+        font-size: 22px;
+        margin-left: 10px;
+        padding: 12px 40px;
     }
 
 }
