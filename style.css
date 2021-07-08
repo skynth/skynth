@@ -775,6 +775,29 @@ section{
         margin-left: 10px;
         padding: 12px 40px;
     }
+    @media (max-width: 490px){
+        .max-width{
+            padding: 0 20px;
+        }
+        .home .home-content .text-1{
+            font-size: 80px;
+        }
+        .home .home-content .text-2{
+            font-size: 33px;
+        }
+        .home .home-content .text-3{
+            font-size: 19px;
+            line-height: 2;
+        }
+        .home .links .resume a{
+            font-size: 20px;
+            padding: 15px 66px;
+        }
+        .home .links .contact a{
+            font-size: 20px;
+            margin-left: 10px;
+            padding: 11px 40px;
+        }
 
 }
 
