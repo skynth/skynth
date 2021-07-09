@@ -289,19 +289,20 @@
             <h2 class="title">Contact</h2>
             <div class = 'card'>
                 <div class="header">Get In Touch! </div>
-
                 <div class="comment">Feel free to reach out at skyngthowhing@gmail.com or drop a message down below ✉️</div>
                 <div class="comment2">I'm always open to anything ranging from business inqueries to coffee chats ☕</div>
                 <div class="contact-form">
-                <div class="input-fields">
-                    <input type="text" class="input" placeholder="First Name">
-                    <input type="text" class="input" placeholder="Last Name">
-                    <input type="text" class="input" placeholder="Email">
-                </div>
-                <div class="msg">
-                    <textarea placeholder="Message"></textarea>
-                    <div class="btn">Send</div>
-                </div>
+                    <form action="https://formspree.io/f/mleaweja" method="POST">
+                        <div class="input-fields">
+                            <input type="text" class="input" name = "name" placeholder="Full Name" required>
+                            <input type="email" class="input" name="_replyto" placeholder="Your Email" required>
+                        </div>
+                        <input type="hidden" name="_subject" id="email-subject" value="skynth Contact Form Submission">
+                        <div class="msg">
+                            <textarea placeholder="Message" name="message"></textarea>
+                            <button type = "submit">Send</button>
+                        </div>
+                    </form>
                 <div class='linked'>
                     <a href="https://www.linkedin.com/in/anthony-sky-ng-thow-hing-9b1352193/" target="_blank"> 
                     <img src="assets/linked.png" alt="">
