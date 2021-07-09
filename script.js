@@ -11,7 +11,7 @@ $(document).ready(function(){
     //Typing Script
 
     var typed = new Typed(".typing", {
-        strings: ["Creative Enthusiast", "Application Developer", "Designer", "Videographer", "Photographer", "Soccer Freestyler"],
+        strings: ["Creative Enthusiast", "App Developer", "Designer", "Videographer", "Photographer", "Soccer Freestyler"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

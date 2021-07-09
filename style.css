@@ -611,6 +611,9 @@ section{
         font-size: 26px;
         padding: 16px 66px;
     }
+    .home .home-content .links .resume a:hover{
+        padding: 13px 60px;
+    }
     .home .links .contact a{
         font-size: 26px;
         margin-left: 15px;
@@ -674,6 +677,9 @@ section{
         font-size: 24px;
         padding: 16px 66px;
     }
+    .home .home-content .links .resume a:hover{
+        padding: 13px 60px;
+    }
     .home .links .contact a{
         font-size: 24px;
         margin-left: 10px;
@@ -701,7 +707,7 @@ section{
         font-size: 44px;
     }
     .home .home-content .text-3{
-        font-size: 26px;
+        font-size: 24px;
     }
     .home{
         background:white;
@@ -737,6 +743,9 @@ section{
         font-size: 28px;
         padding: 22px 30vw;
     }
+    .home .home-content .links .resume a:hover{
+        padding: 20px 29vw;
+    }
     
     .home .links .resume{
         width: 100%;
@@ -756,6 +765,7 @@ section{
         }
     .what-i-do .content{
         column-gap: 0px;
+        justify-content: center;
     }
     
 }
@@ -906,7 +916,7 @@ section{
                 font-size: 30px;
             }
             .home .home-content .text-3{
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 2;
             }
             .home .links .contact a{
@@ -934,8 +944,11 @@ section{
                 font-size: 18px;
                 padding: 17px 30vw;
             }
+            .home .home-content .links .resume a:hover{
+                padding: 15px 29vw;
+            }
             .home .links .contact a{
-                padding: 15px 23vw;
+                padding: 15px 24vw;
                 font-size: 18px;
             }
             .what-i-do .content .card{
@@ -948,7 +961,7 @@ section{
                 font-size: 50px;
             }
             .home .home-content .text-2{
-                font-size: 20px;
+                font-size: 26px;
             }
             .home .home-content .text-3{
                 font-size: 16px;
@@ -960,11 +973,10 @@ section{
                 font-size: 40px;
             }
             .home .home-content .text-2{
-                font-size: 18px;
+                font-size: 22px;
             }
             .home .links .contact a{
                 padding: 15px 22vw;
-                font-size: 18px;
             }
         }
     
