@@ -117,7 +117,6 @@ body {background-color:white;}
     background: #4399FF;
     font-size: 30px;
     padding: 16px 66px;
-    margin-top: 40px;
     transition: all 0.3s ease;
 }
 .home .links .contact a{
@@ -129,7 +128,6 @@ body {background-color:white;}
     margin-left: 40px;
     padding: 12px 40px;
     border: 3px solid #4399FF;
-    margin-top: 40px;
     transition: all 0.3s ease;
 }
 
@@ -791,11 +789,9 @@ section{
 @media (max-width: 750px){
     .projects .content .card .box{
         flex-direction: column;
-
     }
     .projects .content .card .box2{
         flex-direction: column;
-
     }
     .projects .content .box img{
         width: calc(100% - 60px);
@@ -1052,12 +1048,17 @@ section{
             
         }
         @media (max-width: 375px){
+    
+            .home .links  li{
+                margin-top: 50px;
+            }
             .home .links .resume a{
                 font-size: 18px;
                 padding: 17px 30vw;
             }
             .home .home-content .links .resume a:hover{
                 padding: 15px 29vw;
+                
             }
             .home .links .contact a{
                 padding: 15px 24vw;
@@ -1070,19 +1071,19 @@ section{
                 padding: 0 20px;
             }
             .home .home-content .text-1{
-                font-size: 50px;
+                font-size: 55px;
             }
             .home .home-content .text-2{
-                font-size: 26px;
+                font-size: 24px;
             }
             .home .home-content .text-3{
-                font-size: 16px;
+                font-size: 14px;
                 line-height: 2;
             }
         }
-        @media (max-width: 300px){
+        @media (max-width: 320px){
             .home .home-content .text-1{
-                font-size: 40px;
+                font-size: 45px;
             }
             .home .home-content .text-2{
                 font-size: 22px;
