@@ -19,7 +19,6 @@ body {background-color:white;}
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     transition: all 0.3s ease;
-    
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -60,7 +59,7 @@ body {background-color:white;}
 
 /** menu button **/
 .menu-btn{
-    color: white;
+    color: blue;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -68,11 +67,11 @@ body {background-color:white;}
 
 /* home section styling */
 .home{
+    
     display: flex;
     background:url("assets/websitebg.png") no-repeat center;
     height: 100vh;
     color: #2D3F70;
-    min-height: 500px;
 }
 
 .home .max-width{
@@ -176,7 +175,7 @@ body {background-color:white;}
 section{
     font-family: 'Open Sans', sans-serif;
     padding-top: 60px;
-
+    overflow-x: hidden;
 }
 
 /*What I Do Section*/
@@ -580,6 +579,15 @@ section{
         font-size: 25px;
     }
 }
+@media (max-width: 1360px){
+    .what-i-do .content .card{
+        width: calc(33% - 50px);
+        }
+        .what-i-do .content{
+            column-gap: 50px;
+        }
+}
+
 @media (max-width: 1300px){
     .max-width{
         padding: 0 40px;
@@ -611,6 +619,8 @@ section{
     .navbar .menu li a{
         font-size: 16px;
     }
+
+    
 }
 @media (max-width: 1040px){
 
@@ -669,9 +679,21 @@ section{
         margin-left: 10px;
         padding: 12px 40px;
     }
+    .what-i-do .content .card{
+        width: calc(50% - 50px);
+        }
+        .what-i-do .content{
+            column-gap: 50px;
+        }
 
 }
 @media (max-width: 720px){
+    .navbar .logo a{
+        font-size: 20px;
+    }
+    .navbar.sticky .logo a{
+        font-size: 18px;
+    }
     .home .home-content .text-1{
         font-size: 110px;
     }
@@ -683,8 +705,8 @@ section{
     }
     .home{
         background:white;
-        margin-bottom: -125px;
     }
+    
     .max-width{
         padding: 0 50px;
     }
@@ -698,7 +720,7 @@ section{
     }
     .input-fields .input,
     .msg textarea{
-      font-size: 18px;
+      font-size: 16px;
     }
     .contact .comment2{
         font-size: 16px;
@@ -713,25 +735,45 @@ section{
     }
     .home .links .resume a{
         font-size: 28px;
-        padding: 16px 66px;
+        padding: 22px 30vw;
+    }
+    
+    .home .links .resume{
+        width: 100%;
     }
     .home .links .contact a{
         font-size: 28px;
-        margin-left: 15px;
-        padding: 12px 40px;
+        padding: 20px 25.5vw;
+        margin-left: 0px;
+
+    }
+    
+    .home .links .contact{
+        margin-left: 0;
+    }
+    .what-i-do .content .card{
+        width: calc(50% - 10px);
+        }
+    .what-i-do .content{
+        column-gap: 0px;
     }
     
 }
-@media (max-width: 645px){
+@media (max-width: 650px){
+    .home .links .contact a{
+        padding: 20px 24vw;
+
+    }
+    .what-i-do .content .card{
+        width: calc(100% - 100px);
+        }
     .home{
         background:white;
-        margin-bottom: -175px;
     }
     .max-width{
         padding: 0 23px;
     }
     .home .home-content .text-1{
-        margin-top: -100px;
         font-size: 100px;
     }
     .home .home-content .text-2{
@@ -741,18 +783,37 @@ section{
         font-size: 22px;
         line-height: 2;
     }
-    .home .links .resume a{
-        font-size: 27px;
-        padding: 16px 66px;
+    .news .links .fox{
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin-left: -8vw;
     }
-    .home .links .contact a{
-        font-size: 27px;
-        margin-left: 10px;
-        padding: 12px 40px;
+    .news .links .lacrier{
+        padding-left: 8vw;
+        padding-right:8vw;
+    }
+    .news .links .nyt{
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    .news .links .nbc{
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin-right: -8vw;
+    
     }
 
 }
 @media (max-width: 550px){
+    .navbar.sticky .logo a{
+        font-size: 16px;
+    }
+    .navbar .logo a{
+        font-size: 18px;
+    }
+    .what-i-do .content .card{
+        width: calc(100% - 65px);
+        }
     .max-width{
         padding: 0 20px;
     }
@@ -766,16 +827,48 @@ section{
         font-size: 20px;
         line-height: 2;
     }
-    .home .links .resume a{
-        font-size: 22px;
-        padding: 16px 66px;
+
+    .input-fields .input,
+    .msg textarea{
+      font-size: 14px;
     }
-    .home .links .contact a{
-        font-size: 22px;
-        margin-left: 10px;
-        padding: 12px 40px;
+    .msg textarea{
+      height: 80px;
     }
+    .input-fields,
+    .msg{
+      width: 100%;
+    }
+    .contact .card{
+        padding: 30px;
+        
+      }
+}
     @media (max-width: 490px){
+        .news .links .fox{
+            padding-left: 6vw;
+            padding-right: 6vw;
+            margin-left: -6vw;
+        }
+        .news .links .lacrier{
+            padding-left: 6vw;
+            padding-right:6vw;
+        }
+        .news .links .nyt{
+            padding-left: 6vw;
+            padding-right: 6vw;
+        }
+        .news .links .nbc{
+            padding-left: 6vw;
+            padding-right: 6vw;
+            margin-right: -6vw;
+        
+        }
+        .what-i-do .content .card{
+            width: calc(100% - 40px);
+            padding-top: 20px;
+            padding-bottom: 15px;
+            }
         .max-width{
             padding: 0 20px;
         }
@@ -789,16 +882,93 @@ section{
             font-size: 19px;
             line-height: 2;
         }
-        .home .links .resume a{
-            font-size: 20px;
-            padding: 15px 66px;
-        }
         .home .links .contact a{
-            font-size: 20px;
-            margin-left: 10px;
-            padding: 11px 40px;
+            padding: 20px 24vw;
+            font-size: 22px;
+
         }
+        .home .links .resume a{
+            font-size: 22px;
 
-}
+        }
+    }
+        @media (max-width: 440px){
+            .what-i-do .content .card{
+                width: calc(100% - 30px);
+                }
+            .max-width{
+                padding: 0 20px;
+            }
+            .home .home-content .text-1{
+                font-size: 70px;
+            }
+            .home .home-content .text-2{
+                font-size: 30px;
+            }
+            .home .home-content .text-3{
+                font-size: 18px;
+                line-height: 2;
+            }
+            .home .links .contact a{
+                padding: 20px 23vw;
+        
+            }
+            
+        }
+        @media (max-width: 400px){
+           
+            .home .home-content .text-1{
+                font-size: 67px;
+            }
+            .home .links .contact a{
+                font-size: 20px;
 
-  
+        
+            }
+
+
+            
+        }
+        @media (max-width: 375px){
+            .home .links .resume a{
+                font-size: 18px;
+                padding: 17px 30vw;
+            }
+            .home .links .contact a{
+                padding: 15px 23vw;
+                font-size: 18px;
+            }
+            .what-i-do .content .card{
+                width: calc(100% - 30px);
+                }
+            .max-width{
+                padding: 0 20px;
+            }
+            .home .home-content .text-1{
+                font-size: 50px;
+            }
+            .home .home-content .text-2{
+                font-size: 20px;
+            }
+            .home .home-content .text-3{
+                font-size: 16px;
+                line-height: 2;
+            }
+        }
+        @media (max-width: 300px){
+            .home .home-content .text-1{
+                font-size: 40px;
+            }
+            .home .home-content .text-2{
+                font-size: 18px;
+            }
+            .home .links .contact a{
+                padding: 15px 22vw;
+                font-size: 18px;
+            }
+        }
+    
+
+
+
+
