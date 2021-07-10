@@ -17,9 +17,19 @@ $(document).ready(function(){
         loop: true
     });
     //Script to toggle menu and navbar
+    $('.navbar .menu li a').click(function(){
+        // applying again smooth scroll on menu items click
+        $('html').css("scrollBehavior", "smooth");
+    });
+    
     $('.menu-btn').click(function() {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
+
+    })
+    $('.navbar .menu li a').click(function() {
+        $('.navbar .menu').removeClass("active");
+        $('.menu-btn i').removeClass("active");
 
     })
 });

@@ -13,6 +13,9 @@ body {background-color:white;}
     max-width: 1900px;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -60,7 +63,7 @@ body {background-color:white;}
 
 /** menu button **/
 .menu-btn{
-    color: blue;
+    color:#4399FF;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -704,7 +707,7 @@ section{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: white;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -751,6 +754,9 @@ section{
         }
         .what-i-do .content{
             column-gap: 50px;
+        }
+        .what-i-do .content img{
+            height: 140px;
         }
 
 }
@@ -1112,7 +1118,13 @@ section{
             }
         }
         @media (max-width: 375px){
-    
+            .what-i-do .content .name{
+                font-size: 16px;
+            }
+            .what-i-do .content img{
+                object-fit: cover;
+                height: 115px;
+                }
             .home .links  li{
                 margin-top: 50px;
             }
