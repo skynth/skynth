@@ -10,6 +10,7 @@ body {background-color:white;}
 .max-width{
     padding: 0 200px;
     margin: auto;
+    max-width: 1900px;
 
 }
 /* navbar styling */
@@ -71,6 +72,7 @@ body {background-color:white;}
     display: flex;
     background:url("assets/websitebg.png") no-repeat center;
     height: 100vh;
+    background-size: cover;
     color: #2D3F70;
 }
 
@@ -350,12 +352,14 @@ section{
 
 .projects .content .card .box{
     display: flex;
+    width: 100%;
     transition: all 0.3s ease;
     align-items: center;
     /**flex-direction: column;**/
 }
 .projects .content .card .box2{
     display: flex;
+    width: 100%;
     transition: all 0.3s ease;
     align-items: center;
     flex-direction: row-reverse;
@@ -592,6 +596,10 @@ section{
   
   /* Responsive media query */
 @media (max-width: 1600px){
+    .home{
+    
+
+    }
     .max-width{
         padding: 0 100px;
     }
