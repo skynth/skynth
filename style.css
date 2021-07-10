@@ -1106,6 +1106,10 @@ section{
             .home .links .contact a{
                 font-size: 20px;
             }
+            .home .links .contact a{
+                padding: 20px 24.5vw;
+        
+            }
         }
         @media (max-width: 375px){
     
