@@ -798,13 +798,13 @@ section{
         flex-direction: column;
     }
     .projects .content .box img{
-        width: calc(100% - 70px);
+        width: calc(100%);
         border-radius: 20px;
         margin-left: 0;
         margin-right: 0;
     }
     .projects .content .box2 img{
-        width: calc(100% - 70px);
+        width: calc(100%);
         border-radius: 20px;
         margin-left: 0;
         margin-right: 0;
@@ -887,7 +887,7 @@ section{
 }
 @media (max-width: 650px){
     .home .links .contact a{
-        padding: 20px 24vw;
+        padding: 20px 24.5vw;
     }
     .what-i-do .content{
         justify-content: center;
@@ -933,6 +933,9 @@ section{
 
 }
 @media (max-width: 550px){
+    .home .links .contact a{
+        padding: 20px 24vw;
+    }
     .navbar.sticky .logo a{
         font-size: 16px;
     }
@@ -1021,6 +1024,7 @@ section{
         }
     }
         @media (max-width: 440px){
+            
             .what-i-do .content .card{
                 width: calc(100% - 30px);
                 }
@@ -1038,7 +1042,7 @@ section{
                 line-height: 2;
             }
             .home .links .contact a{
-                padding: 20px 23vw;
+                padding: 20px 23.5vw;
         
             }
             
