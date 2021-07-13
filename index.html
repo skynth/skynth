@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -20,7 +21,20 @@
         <div class="max-width">
             <div class="logo"><a href="#home">Anthony Sky Ng-Thow-Hing</a></div>
             <ul class="menu">
-                <li><a href="#what-i-do">What I Do</a></li>
+                <li>
+                    <a class="drop" href="#what-i-do">What I Do
+                        <span class="fas fa-caret-down"></span>
+                    </a>
+                    <input class="check" type="checkbox" id="btn-1">
+                    <ul>
+                      <li><a href="#">App Dev</a></li>
+                      <li><a href="#">UX Design</a></li>
+                      <li><a href="#">Video</a></li>
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Photo</a></li>
+                      <li><a href="#">Soccer Freestyle</a></li>
+                  </ul>
+                  </li>
                 <li><a href="#testimonial">Testimonials</a></li>
                 <li><a href="#projects">Recent Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -41,7 +55,7 @@
                 </div>
                 <div class="links">
                     <li class="resume"><a href="assets/SkyResumeFall2020.pdf" target="_blank">Resume</a></li>
-                    <li class="contact"><a href="#">Get In Touch</a></li>
+                    <li class="contact"><a href="#contact">Get In Touch</a></li>
                 </div>
             </div>
         </div>
@@ -320,6 +334,12 @@
             </div>
         </div>
     </section>
+    <script>
+        $('.icon').click(function(){
+          $('span').toggleClass("cancel");
+        });
+      </script>
     <script src ="script.js"></script>
+    
 </body>
 </html>
