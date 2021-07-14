@@ -46,8 +46,13 @@ html{
     transition: all 0.3s ease;
 }
 /** dropdown **/
-nav ul li:hover > ul{
+.dropdown:hover > ul{
     top: 66px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .dropdown.sticky:hover > ul{
+    top: 48px;
     opacity: 1;
     visibility: visible;
   }
@@ -60,6 +65,7 @@ nav ul li:hover > ul{
     transition: top .3s;
     margin-left: 35px;
     text-align: center;
+    box-shadow: 0px 18px 40px rgba(67,153,255,.2);
 
   }
   nav ul ul li{
@@ -68,7 +74,7 @@ nav ul li:hover > ul{
     display: list-item;
     float: 0;
     width: 150px;
-    background-color: rgba(67,153,255,.15);
+    background-color: white;
   }
   nav{
       background-color: white;
@@ -775,7 +781,10 @@ section{
     .navbar span{
         visibility:hidden;
     }
-    nav ul li:hover > ul{
+    .dropdown:hover > ul{
+        visibility:hidden;
+      }
+      .dropdown.sticky:hover > ul{
         visibility:hidden;
       }
     .home .home-content .text-1{
