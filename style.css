@@ -46,13 +46,14 @@ html{
     transition: all 0.3s ease;
 }
 /** dropdown **/
+
 .dropdown:hover > ul{
-    top: 66px;
+    top: 70px;
     opacity: 1;
     visibility: visible;
   }
   .dropdown.sticky:hover > ul{
-    top: 48px;
+    top: 58px;
     opacity: 1;
     visibility: visible;
   }
@@ -86,6 +87,8 @@ html{
     margin-left: 0px;
     display: block;
     transition: color 0.3 ease;
+    line-height: normal;
+
 }
 
   .show,.icon,.check{
@@ -101,7 +104,9 @@ nav ul li a{
     color:#2D3F70;
     font-size: 18px;
     font-weight: 500;
+    line-height: 50px;
     margin-left: 70px;
+
     display: block;
     transition: color 0.3 ease;
 }
