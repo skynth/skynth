@@ -12,14 +12,7 @@ $(document).ready(function(){
 
         }
     });
-    //Typing Script
 
-    var typed = new Typed(".typing", {
-        strings: ["Creative Enthusiast", "App Developer", "Designer", "Videographer", "Photographer", "Soccer Freestyler"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
     //Script to toggle menu and navbar
     $('.navbar .menu li a').click(function(){
         // applying again smooth scroll on menu items click
@@ -36,4 +29,12 @@ $(document).ready(function(){
         $('.menu-btn i').removeClass("active");
 
     })
+        //Typing Script
+
+        var typed = new Typed(".typing", {
+            strings: ["Creative Enthusiast", "App Developer", "Designer", "Videographer", "Photographer", "Soccer Freestyler"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
 });

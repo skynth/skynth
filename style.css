@@ -30,7 +30,7 @@ html{
     background: white;
 }
 .navbar.sticky .logo a{
-    font-size: 30px;
+    font-size: 27px;
 }
 .navbar .max-width{
     display: flex;
@@ -41,8 +41,8 @@ html{
 }
 .navbar .logo a{
     color: #2D3F70;
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
     transition: all 0.3s ease;
 }
 /** dropdown **/
@@ -656,14 +656,30 @@ section{
       border-width: 0px;
       box-shadow: 0px 18px 50px rgba(67,153,255,.25);
   }
-  
+  /**Overview titles */
+  .overview .text{
+      font-size: 55px;
+      margin-top: 120px;
+      text-align: center;
+      font-weight: 500;
+      color: #2D3F70;
+
+  }
+  .overview{
+      background:#F3F9FF;
+      height: 330px;
+      margin-bottom: -20px;
+
+  }
+
+
   /* Responsive media query */
 @media (max-width: 1600px){
     .max-width{
         padding: 0 100px;
     }
     .navbar .logo a{
-        font-size: 30px;
+        font-size: 27px;
     }
     .navbar.sticky .logo a{
         font-size: 25px;
@@ -874,6 +890,16 @@ section{
 
 
 @media (max-width: 750px){
+    .overview .text{
+        margin-top: 105px;
+        font-size: 45px;
+        
+    }
+    .overview{
+        height: 300px;
+        margin-bottom: -40px;
+
+    }
     .projects .content .card .box{
         flex-direction: column;
         text-align: left;
@@ -1059,6 +1085,15 @@ section{
 
 }
 @media (max-width: 550px){
+    .overview .text{
+        font-size: 35px;
+        margin-top: 87px;
+  
+    }
+    .overview{
+        height: 250px;
+        
+    }
     .home .links .contact a{
         padding: 20px 24vw;
     }
@@ -1150,7 +1185,14 @@ section{
         }
     }
         @media (max-width: 440px){
-            
+            .overview{
+                height: 200px;
+            }
+            .overview .text{
+                font-size: 25px;
+                margin-top: 70px;
+          
+            }
             .what-i-do .content .card{
                 width: calc(100% - 30px);
                 }
@@ -1186,6 +1228,14 @@ section{
             }
         }
         @media (max-width: 375px){
+            .overview .text{
+                font-size: 22px;
+                margin-top: 60px;
+          
+            }
+            .overview{
+                height: 180px;
+            }
             .what-i-do .content .name{
                 font-size: 16px;
             }
@@ -1225,6 +1275,24 @@ section{
             }
         }
         @media (max-width: 320px){
+            .overview .text{
+                font-size: 20px;
+                margin-top: 50px;
+
+            }
+            .overview{
+                height: 155px;
+            }
+
+            .navbar.sticky .logo a{
+                font-size: 14px;
+            }
+
+            .navbar .logo a{
+                font-size: 15px;
+
+            }
+            
             .home .home-content .text-1{
                 font-size: 45px;
             }
