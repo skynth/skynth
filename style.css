@@ -378,6 +378,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .projects .content .card{
@@ -656,7 +657,7 @@ section{
       border-width: 0px;
       box-shadow: 0px 18px 50px rgba(67,153,255,.25);
   }
-  /**Overview titles */
+  /* Overview titles */
   .overview .text{
       font-size: 55px;
       margin-top: 120px;
@@ -671,6 +672,41 @@ section{
       margin-bottom: -20px;
 
   }
+    /* Videos */
+    .videos .content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 100px;
+    }
+    .videos .container {
+        width: 100%;
+        padding-top: 56.25%;
+        height: 0px;
+        position: relative;
+    }
+    .group{
+        align-items: center;
+        width: calc(50% - 50px);
+    }
+    .group iframe{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: transparent;
+    }
+    .group .details{
+        line-height: 1.8;
+        font-size: 18px;
+        font-weight: 100;
+        color: #2D3F70;
+        margin-top: 10px;
+        margin-bottom: 25px;
+
+    }
 
 
   /* Responsive media query */
@@ -732,6 +768,10 @@ section{
     
 }
 @media (max-width: 1040px){
+    .group .details{
+        font-size: 16px;
+
+    }
     .projects .content .box .description{
         font-size: 15px;
     }
@@ -885,11 +925,24 @@ section{
         font-size: 14px;
         padding: 9px 40px;
     }
+    .group .details{
+        font-size: 14px;
+    }
     
 }
 
 
 @media (max-width: 750px){
+    .group .details{
+        font-size: 16x;
+    }
+    .videos .content{
+        align-items: center;
+        justify-content: center;
+    }
+    .group{
+        width: calc(80%);
+    }
     .overview .text{
         margin-top: 105px;
         font-size: 45px;
@@ -1038,6 +1091,9 @@ section{
     
 }
 @media (max-width: 650px){
+    .group{
+        width: calc(90%);
+    }
     .home .links .contact a{
         padding: 20px 24.5vw;
     }
@@ -1085,6 +1141,12 @@ section{
 
 }
 @media (max-width: 550px){
+    .group{
+        width: calc(100%);
+    }
+    .group .details{
+        font-size: 14x;
+    }
     .overview .text{
         font-size: 35px;
         margin-top: 87px;
