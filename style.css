@@ -19,9 +19,6 @@ html{
 }
 /* navbar styling */
 .navbar{
-
-    max-width: 1900px;
-    margin: auto;
     position: fixed;
     z-index: 100;
     padding: 30px 0;
@@ -40,7 +37,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto 0 auto 0px;
 
 }
 .navbar .logo a{
