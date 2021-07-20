@@ -534,7 +534,6 @@ section{
   /*Contact Section*/
 
   .contact{
-    background:url("assets/contactbg.png") no-repeat center;
     background-size: cover;
     padding-bottom: 80px;
 
@@ -751,7 +750,55 @@ section{
         }
       }
       
-      
+    /*Footer*/
+    .footer{
+        padding-top: 0;
+        padding-bottom: 50px;
+        color:#2D3F70;
+        background-color: white;
+    }
+    .footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer ul{
+        list-style: none;
+        margin-bottom: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer li{
+        list-style: none;
+        padding: 0 15px;
+        margin-bottom: 16px;
+        display: inline;
+    }
+
+    .footer a{
+        font-size: 16px;
+        font-weight: 500px;
+        color:#2D3F70;
+
+    }
+    .footer .flex-row{
+        display: inline-block;
+    }
+    .footer img{
+        cursor: pointer;
+        height: 30px;
+        width: auto;
+        display: inline-block;
+
+    }
+    .footer p{
+        text-align: center;
+        font-size: 16px;
+
+    }
       
   /* Responsive media query */
 @media (max-width: 1600px){
@@ -1536,6 +1583,19 @@ section{
             .home .links .contact a{
                 padding: 15px 22vw;
             }
+            .footer a{
+                font-size: 14px;
+        
+            }
+
+            .footer img{
+                height: 24px;
+            }
+            .footer p{
+                font-size: 14px;
+            }
+
+        
         }
     
 
