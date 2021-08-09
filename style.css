@@ -941,6 +941,7 @@ margin-top: 20px;
     .app-content img{
         width: calc(33% - 30px);
     }
+
     .max-width{
         padding: 0 70px;
     }
@@ -1188,6 +1189,13 @@ margin-top: 20px;
 }
 
 @media (max-width: 850px){
+    .lucid-content img{
+        width: calc(50% - 10px);
+
+    }
+    .yurgo-content img{
+        width: calc(50% - 10px);
+    }
 
     .home .links .resume a{
         font-size: 19px;
