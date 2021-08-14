@@ -19,6 +19,7 @@ html{
 }
 /* navbar styling */
 .navbar{
+    background-color: transparent;
     position: fixed;
     z-index: 100;
     padding: 30px 0;
@@ -140,7 +141,7 @@ nav ul li a:hover{
     filter: drop-shadow(0px 18px 40px rgba(67,153,255,.5));
     width: 400px;
     height: auto;
-    margin-top: 11vh;
+    margin-top: 3vh;
     object-fit:contain;
     margin-left: 60px;
 
@@ -931,7 +932,7 @@ margin-top: 20px;
     }
 }
 
-@media (max-width: 1360px){
+@media (max-width: 1390px){
     .what-i-do .content .card{
         width: calc(33% - 50px);
         }
@@ -978,7 +979,7 @@ margin-top: 20px;
 
     
 }
-@media (max-width: 1200px){
+@media (max-width: 1225px){
 
     .home .home-content .text-1{
         font-size: 100px;
@@ -1013,7 +1014,7 @@ margin-top: 20px;
     }
 }
 
-@media (max-width: 1070px){
+@media (max-width: 1075px){
 
     .group .details{
         font-size: 16px;
@@ -1110,7 +1111,7 @@ margin-top: 20px;
         }
 
 }
-@media (max-width: 970px){
+@media (max-width: 990px){
     .home .home-content .text-1{
         font-size: 90px;
     }
@@ -1188,7 +1189,7 @@ margin-top: 20px;
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 845px){
     .lucid-content img{
         width: calc(50% - 10px);
 
@@ -1235,6 +1236,9 @@ margin-top: 20px;
     .group .details{
         font-size: 14px;
     }
+    .home .home-content .text-1{
+        font-size: 70px;
+    }
     
 }
 @media (max-width: 815px){
@@ -1259,9 +1263,7 @@ margin-top: 20px;
         margin-left: 0px;
 
     }
-    .home .home-content .text-1{
-        font-size: 110px;
-    }
+
     .home .home-content .text-2{
         font-size: 44px;
     }
@@ -1282,6 +1284,9 @@ margin-top: 20px;
         justify-content: center;
 
 
+    }
+    .home .home-content .text-1{
+        font-size: 110px;
     }
 }
 
@@ -1459,7 +1464,7 @@ margin-top: 20px;
 
 }
 }
-@media (max-width: 650px){
+@media (max-width: 670px){
     .soccer-legend-content img{
         width: calc(100%);
         
@@ -1513,7 +1518,7 @@ margin-top: 20px;
     }
 
 }
-@media (max-width: 550px){
+@media (max-width: 570px){
     .group{
         width: calc(100%);
     }
@@ -1571,7 +1576,7 @@ margin-top: 20px;
         
       }
 }
-    @media (max-width: 490px){
+    @media (max-width: 510px){
         .news .links .fox{
             padding-left: 6vw;
             padding-right: 6vw;
@@ -1619,7 +1624,7 @@ margin-top: 20px;
 
         }
     }
-        @media (max-width: 440px){
+        @media (max-width: 460px){
             .overview{
                 height: 200px;
             }
@@ -1650,7 +1655,7 @@ margin-top: 20px;
             }
             
         }
-        @media (max-width: 400px){
+        @media (max-width: 420px){
             .home .home-content .text-1{
                 font-size: 67px;
             }
@@ -1662,7 +1667,7 @@ margin-top: 20px;
         
             }
         }
-        @media (max-width: 375px){
+        @media (max-width: 395px){
             .overview .text{
                 font-size: 22px;
                 margin-top: 60px;
@@ -1671,12 +1676,19 @@ margin-top: 20px;
             .overview{
                 height: 180px;
             }
+            .what-i-do .content .link a{
+                border-radius: 100px;
+                color:#4399FF;
+                background: white;
+                font-size: 14px;
+                padding: 8px 30px;
+            }
             .what-i-do .content .name{
-                font-size: 16px;
+                font-size: 14px;
             }
             .what-i-do .content img{
                 object-fit: cover;
-                height: 115px;
+                height: 100px;
                 }
             .home .links  li{
                 margin-top: 50px;
@@ -1709,7 +1721,7 @@ margin-top: 20px;
                 line-height: 2;
             }
         }
-        @media (max-width: 320px){
+        @media (max-width: 340px){
             .overview .text{
                 font-size: 20px;
                 margin-top: 50px;
@@ -1729,7 +1741,7 @@ margin-top: 20px;
             }
             
             .home .home-content .text-1{
-                font-size: 45px;
+                font-size: 46px;
             }
             .home .home-content .text-2{
                 font-size: 22px;
