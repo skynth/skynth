@@ -1382,7 +1382,7 @@ margin-top: 20px;
         font-size: 18px;
     }
     .home .home-content .text-1{
-        font-size: 110px;
+        font-size: 15vw;
     }
     .home .home-content .text-2{
         font-size: 44px;
@@ -1465,6 +1465,7 @@ margin-top: 20px;
 }
 }
 @media (max-width: 670px){
+
     .soccer-legend-content img{
         width: calc(100%);
         
@@ -1486,9 +1487,6 @@ margin-top: 20px;
     }
     .max-width{
         padding: 0 23px;
-    }
-    .home .home-content .text-1{
-        font-size: 100px;
     }
     .home .home-content .text-2{
         font-size: 40px;
@@ -1519,6 +1517,9 @@ margin-top: 20px;
 
 }
 @media (max-width: 570px){
+    .home .home-content .text-1{
+        font-size: 17vw;
+    }
     .group{
         width: calc(100%);
     }
@@ -1548,9 +1549,6 @@ margin-top: 20px;
         }
     .max-width{
         padding: 0 20px;
-    }
-    .home .home-content .text-1{
-        font-size: 90px;
     }
     .home .home-content .text-2{
         font-size: 40px;
@@ -1640,10 +1638,10 @@ margin-top: 20px;
                 padding: 0 20px;
             }
             .home .home-content .text-1{
-                font-size: 70px;
+                font-size: 17vw;
             }
             .home .home-content .text-2{
-                font-size: 30px;
+                font-size: 27px;
             }
             .home .home-content .text-3{
                 font-size: 16px;
@@ -1656,9 +1654,7 @@ margin-top: 20px;
             
         }
         @media (max-width: 420px){
-            .home .home-content .text-1{
-                font-size: 67px;
-            }
+
             .home .links .contact a{
                 font-size: 20px;
             }
@@ -1710,9 +1706,7 @@ margin-top: 20px;
             .max-width{
                 padding: 0 20px;
             }
-            .home .home-content .text-1{
-                font-size: 55px;
-            }
+
             .home .home-content .text-2{
                 font-size: 24px;
             }
@@ -1741,10 +1735,10 @@ margin-top: 20px;
             }
             
             .home .home-content .text-1{
-                font-size: 46px;
+                font-size: 16vw;
             }
             .home .home-content .text-2{
-                font-size: 22px;
+                font-size: 20px;
             }
             .home .links .contact a{
                 padding: 15px 22vw;
