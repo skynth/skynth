@@ -1714,6 +1714,10 @@ margin-top: 20px;
                 font-size: 14px;
                 line-height: 2;
             }
+            .testimonial .carousel .card .quote{
+                font-size: 14px;
+            
+            }
         }
         @media (max-width: 340px){
             .overview .text{
