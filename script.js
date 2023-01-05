@@ -32,9 +32,9 @@ $(document).ready(function(){
         //Typing Script
 
         var typed = new Typed(".typing", {
-            strings: ["Entrepreneur", "App and Game Developer", "UX Designer",  "Videographer", "Graphic Designer", "Photographer", "Soccer Freestyler"],
-            typeSpeed: 100,
-            backSpeed: 60,
+            strings: ["Incoming  SWE intern", "Lead UX & SWE @ Inbound", "Research Assitant @ Corrie Health",  "Former Product Design @ ServiceNow", "Founding Member @ Otto", "Former Lead UX @ Infernoguard"],
+            typeSpeed: 120,
+            backSpeed: 80,
             loop: true
         });
 });
