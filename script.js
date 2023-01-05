@@ -32,7 +32,7 @@ $(document).ready(function(){
         //Typing Script
 
         var typed = new Typed(".typing", {
-            strings: ["Incoming  SWE intern", "UX & SWE @ Inbound", "Research assitant @ Corrie Health",  "Former product @ ServiceNow", "Founding member @ Otto", "Former UX @ Infernoguard"],
+            strings: ["Incoming  SWE intern", "UX, SWE @ Inbound", "Research assitant @ Corrie",  "Former product @ ServiceNow", "Founding UX @ Otto", "Former UX @ Infernoguard"],
             typeSpeed: 140,
             backSpeed: 100,
             loop: true
